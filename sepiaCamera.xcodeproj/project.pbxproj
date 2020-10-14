@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAB57332140DCC2F00DF4FDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB57331140DCC2F00DF4FDD /* UIKit.framework */; };
+		AAB57334140DCC2F00DF4FDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB57333140DCC2F00DF4FDD /* Foundation.framework */; };
+		AAB57336140DCC2F00DF4FDD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB57335140DCC2F00DF4FDD /* CoreGraphics.framework */; };
+		AAB5733C140DCC2F00DF4FDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAB5733A140DCC2F00DF4FDD /* InfoPlist.strings */; };
+		AAB5733E140DCC2F00DF4FDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB5733D140DCC2F00DF4FDD /* main.m */; };
+		AAB57342140DCC2F00DF4FDD /* sepiaCameraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB57341140DCC2F00DF4FDD /* sepiaCameraAppDelegate.m */; };
+		AAB57345140DCC2F00DF4FDD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB57343140DCC2F00DF4FDD /* MainWindow.xib */; };
+		AAB57348140DCC3000DF4FDD /* sepiaCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB57347140DCC3000DF4FDD /* sepiaCameraViewController.m */; };
+		AAB5734B140DCC3000DF4FDD /* sepiaCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB57349140DCC3000DF4FDD /* sepiaCameraViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAB5732D140DCC2F00DF4FDD /* sepiaCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sepiaCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB57331140DCC2F00DF4FDD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AAB57333140DCC2F00DF4FDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAB57335140DCC2F00DF4FDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AAB57339140DCC2F00DF4FDD /* sepiaCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sepiaCamera-Info.plist"; sourceTree = "<group>"; };
+		AAB5733B140DCC2F00DF4FDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAB5733D140DCC2F00DF4FDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAB5733F140DCC2F00DF4FDD /* sepiaCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sepiaCamera-Prefix.pch"; sourceTree = "<group>"; };
+		AAB57340140DCC2F00DF4FDD /* sepiaCameraAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sepiaCameraAppDelegate.h; sourceTree = "<group>"; };
+		AAB57341140DCC2F00DF4FDD /* sepiaCameraAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sepiaCameraAppDelegate.m; sourceTree = "<group>"; };
+		AAB57344140DCC2F00DF4FDD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		AAB57346140DCC2F00DF4FDD /* sepiaCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sepiaCameraViewController.h; sourceTree = "<group>"; };
+		AAB57347140DCC3000DF4FDD /* sepiaCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sepiaCameraViewController.m; sourceTree = "<group>"; };
+		AAB5734A140DCC3000DF4FDD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/sepiaCameraViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAB5732A140DCC2F00DF4FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB57332140DCC2F00DF4FDD /* UIKit.framework in Frameworks */,
+				AAB57334140DCC2F00DF4FDD /* Foundation.framework in Frameworks */,
+				AAB57336140DCC2F00DF4FDD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAB57322140DCC2E00DF4FDD = {
+			isa = PBXGroup;
+			children = (
+				AAB57337140DCC2F00DF4FDD /* sepiaCamera */,
+				AAB57330140DCC2F00DF4FDD /* Frameworks */,
+				AAB5732E140DCC2F00DF4FDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAB5732E140DCC2F00DF4FDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB5732D140DCC2F00DF4FDD /* sepiaCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAB57330140DCC2F00DF4FDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAB57331140DCC2F00DF4FDD /* UIKit.framework */,
+				AAB57333140DCC2F00DF4FDD /* Foundation.framework */,
+				AAB57335140DCC2F00DF4FDD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAB57337140DCC2F00DF4FDD /* sepiaCamera */ = {
+			isa = PBXGroup;
+			children = (
+				AAB57340140DCC2F00DF4FDD /* sepiaCameraAppDelegate.h */,
+				AAB57341140DCC2F00DF4FDD /* sepiaCameraAppDelegate.m */,
+				AAB57343140DCC2F00DF4FDD /* MainWindow.xib */,
+				AAB57346140DCC2F00DF4FDD /* sepiaCameraViewController.h */,
+				AAB57347140DCC3000DF4FDD /* sepiaCameraViewController.m */,
+				AAB57349140DCC3000DF4FDD /* sepiaCameraViewController.xib */,
+				AAB57338140DCC2F00DF4FDD /* Supporting Files */,
+			);
+			path = sepiaCamera;
+			sourceTree = "<group>";
+		};
+		AAB57338140DCC2F00DF4FDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAB57339140DCC2F00DF4FDD /* sepiaCamera-Info.plist */,
+				AAB5733A140DCC2F00DF4FDD /* InfoPlist.strings */,
+				AAB5733D140DCC2F00DF4FDD /* main.m */,
+				AAB5733F140DCC2F00DF4FDD /* sepiaCamera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAB5732C140DCC2F00DF4FDD /* sepiaCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB5734E140DCC3000DF4FDD /* Build configuration list for PBXNativeTarget "sepiaCamera" */;
+			buildPhases = (
+				AAB57329140DCC2F00DF4FDD /* Sources */,
+				AAB5732A140DCC2F00DF4FDD /* Frameworks */,
+				AAB5732B140DCC2F00DF4FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sepiaCamera;
+			productName = sepiaCamera;
+			productReference = AAB5732D140DCC2F00DF4FDD /* sepiaCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAB57324140DCC2F00DF4FDD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AAB57327140DCC2F00DF4FDD /* Build configuration list for PBXProject "sepiaCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAB57322140DCC2E00DF4FDD;
+			productRefGroup = AAB5732E140DCC2F00DF4FDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAB5732C140DCC2F00DF4FDD /* sepiaCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAB5732B140DCC2F00DF4FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB5733C140DCC2F00DF4FDD /* InfoPlist.strings in Resources */,
+				AAB57345140DCC2F00DF4FDD /* MainWindow.xib in Resources */,
+				AAB5734B140DCC3000DF4FDD /* sepiaCameraViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAB57329140DCC2F00DF4FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB5733E140DCC2F00DF4FDD /* main.m in Sources */,
+				AAB57342140DCC2F00DF4FDD /* sepiaCameraAppDelegate.m in Sources */,
+				AAB57348140DCC3000DF4FDD /* sepiaCameraViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAB5733A140DCC2F00DF4FDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB5733B140DCC2F00DF4FDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AAB57343140DCC2F00DF4FDD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB57344140DCC2F00DF4FDD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		AAB57349140DCC3000DF4FDD /* sepiaCameraViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB5734A140DCC3000DF4FDD /* en */,
+			);
+			name = sepiaCameraViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAB5734C140DCC3000DF4FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAB5734D140DCC3000DF4FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAB5734F140DCC3000DF4FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sepiaCamera/sepiaCamera-Prefix.pch";
+				INFOPLIST_FILE = "sepiaCamera/sepiaCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AAB57350140DCC3000DF4FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sepiaCamera/sepiaCamera-Prefix.pch";
+				INFOPLIST_FILE = "sepiaCamera/sepiaCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAB57327140DCC2F00DF4FDD /* Build configuration list for PBXProject "sepiaCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB5734C140DCC3000DF4FDD /* Debug */,
+				AAB5734D140DCC3000DF4FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB5734E140DCC3000DF4FDD /* Build configuration list for PBXNativeTarget "sepiaCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB5734F140DCC3000DF4FDD /* Debug */,
+				AAB57350140DCC3000DF4FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAB57324140DCC2F00DF4FDD /* Project object */;
+}
